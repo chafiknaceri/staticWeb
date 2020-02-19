@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Itunes Redirect</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script>
+            var stringMate = "https://apps.apple.com/us/app/id1495195731";
+           var urlId = stringMate[stringMate.indexOf("id")];
+           console.log(urlId);
+            function printful(){
+                window.open("https://apps.apple.com/us/app/"+"id1495195731", '_blank');
+            }
+            </script>
+    </head>
+
+    <body>
+        <div>
+
+        <center>
+            <div>
+                <h1 class="voodoo-but">Download on the Apple store</h1>
+            </div>
+            <form id="former">
+                <input onclick="printful();" class="btn btn-dark voodoo-but" type="submit" value="Download">
+            </form>
+        </center>
+        </div>
+    </body>
+
+
+</html>
